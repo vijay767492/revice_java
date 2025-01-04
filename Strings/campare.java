@@ -9,6 +9,7 @@ public class campare {
         String name1=vv.nextLine();
         System.out.print("please enter the nam to compare :");
         String name2=vv.nextLine();
+        
       if (name1.compareTo(name2)==0){
         System.out.println("both names are same");
       }else{
@@ -29,5 +30,6 @@ public class campare {
         System.out.println("only lenth are same but strings are not same");
     }
     
+    System.out.println(name1.substring(2,11));
 }
 }
