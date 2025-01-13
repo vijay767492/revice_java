@@ -1,4 +1,4 @@
-package revice_java.arrays;
+
 import java.util.*;
 public class printing {
     public static void main(String[] args){ 

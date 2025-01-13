@@ -1,4 +1,4 @@
-package revice_java.arrays;
+
 import java.util.*;
 public class two_D_array {
     public static void main(String[] args) {
