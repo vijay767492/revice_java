@@ -74,6 +74,33 @@ System.out.println();
     }return count+1;
     
 }
+public void middle() {
+    if (head == null) {
+        System.out.println("The list is empty");
+        return;
+    }
+
+    // Step 1: Count the number of nodes
+    int count = 1;
+    Node current = head;
+    while (current != null) {
+        count++;
+        current = current.next;
+    }
+
+    // Step 2: Find the middle position
+    int mid = count / 2;
+
+    // Step 3: Traverse to the middle
+    current = head;
+    for (int i = 0; i < mid; i++) {
+        current = current.next;
+    }
+
+    // Step 4: Print the middle element
+    System.out.println("Middle element is: " + current.data);
+}
+
 
 public static void main(String[] args) {
     remove_element ff=new remove_element();
@@ -87,6 +114,7 @@ public static void main(String[] args) {
 
 ff.printList();
 System.out.println("number of elements are :"+ff.size());
+ff.middle();
 
 
 }}
