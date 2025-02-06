@@ -6,6 +6,7 @@ public class febonocii {
             return;
         }
         int c;
+       
         c=a+b;
         System.out.println(c);
 printfeb(b, c, n-1);
