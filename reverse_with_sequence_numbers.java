@@ -1,4 +1,4 @@
-package revice_java;
+
 import java.util.*;
 public class reverse_with_sequence_numbers {
    public static void main(String[] args) {

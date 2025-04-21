@@ -1,4 +1,4 @@
-package revice_java.OOPs;
+import java.util.*;
 import java.util.Scanner;
 class animal1{
     int age = 23; 

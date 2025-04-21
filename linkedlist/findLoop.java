@@ -8,11 +8,12 @@ public class findLoop {
             this.next=null;
         }
     }
+    
     //addfirst method
     public void addfirst(String data){
         Node newnode=new Node(data);
         if(head==null){
-            head=newnode;
+            head=newnode; 
             return;
 
         }
@@ -22,12 +23,13 @@ public class findLoop {
     //creating the loop 
     public void creatingloop(int possition){
         if(head==null){
-            System.out.println("the lis empty so cant create the loop ");
+            System.out.println("the list empty so cant create the loop ");
             return;
         }
         Node loopnode=head;
         Node tail=head;
         int count=1;
+        //going to position that is given by user 
         while(count<possition && loopnode!=null){
             loopnode=loopnode.next;
             count++;
@@ -55,7 +57,7 @@ while(fast!=null && fast.next!=null){
 System.out.println("there is no loop ");
 return;
     }
-    public void remove(Node loopnode){
+    public void remove(Node loopnode){ 
         Node ptr1=head;
         Node ptr2=loopnode;
         while(ptr1.next!=ptr2.next){

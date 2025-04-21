@@ -1,4 +1,4 @@
-package revice_java;
+
 
 public class OperatorsAndExpressions {
     public static void main(String[] args) {

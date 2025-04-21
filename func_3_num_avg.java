@@ -1,4 +1,4 @@
-package revice_java;
+
 import java.util.*;
 public class func_3_num_avg {
     public static int avarage(int a,int b,int c){

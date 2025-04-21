@@ -1,4 +1,4 @@
-package revice_java.OOPs;
+
 //this compile time polymorphism (method overloading )
 class animal{
     int a=10;

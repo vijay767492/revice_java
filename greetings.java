@@ -1,4 +1,4 @@
-package revice_java;
+
 import java.util.Scanner;
 
 public class greetings {

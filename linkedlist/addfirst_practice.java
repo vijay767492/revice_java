@@ -1,6 +1,7 @@
+
 public class addfirst_practice {
     Node head;
-    class Node{
+     class Node{
         String data;
         Node next;
         public Node(String data) {
@@ -8,11 +9,10 @@ public class addfirst_practice {
             this.next = null;
         }
         }
-        
-        public void addFirst(String data){
+        public   void addFirst(String data){   
             Node newnode=new Node(data);
             if(head==null){
-               head=newnode;
+              head=newnode;
                 return;
             }
             newnode.next=head;
@@ -32,7 +32,7 @@ currentnode.next=newnode;
 
         }
        
-public void printList(){
+public   void printList(){
     if(head==null){
         System.out.println("linked list is empty");
         return;
@@ -49,10 +49,8 @@ System.out.println("Null");
 public static void main(String[] args) {
     addfirst_practice ff=new addfirst_practice();
     ff.addFirst("vijay");
-    ff.addFirst("bikshapthi");
-    ff.addFirst("prammela");
-    ff.addFirst("akka");
-    ff.addLast("22222");
+    ff.addLast("chintu");
     ff.printList();
+  
 }
 }

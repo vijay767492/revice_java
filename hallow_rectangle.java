@@ -1,4 +1,4 @@
-package revice_java;
+
 public class hallow_rectangle {
     public static void main(String[] args) {
         int n=4;

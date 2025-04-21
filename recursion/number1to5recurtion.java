@@ -1,4 +1,4 @@
-package revice_java.recursion;
+
 
 public class number1to5recurtion {
     public static void numbers(int n){

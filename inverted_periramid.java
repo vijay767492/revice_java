@@ -1,4 +1,4 @@
-package revice_java;
+
 public class inverted_periramid {
     public static void main(String[] args) {
 int n=4;
@@ -8,5 +8,5 @@ for(int i=n;i>=1;i--){
     }
     System.out.println();
 }
-    }
+    } 
 }

@@ -1,4 +1,4 @@
-package revice_java.OOPs;
+
 // when we call the class methods from other class the constructor is called automatically by defoult
 class animal{
     animal(){

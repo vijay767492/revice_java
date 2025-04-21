@@ -1,4 +1,4 @@
-package revice_java;
+
 /*1) *
     **
    ***

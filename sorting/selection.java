@@ -1,4 +1,4 @@
-package revice_java.sorting;
+package revice_java.recursion.sorting;
 
 public class selection {
     public static void printing(int[] arr){

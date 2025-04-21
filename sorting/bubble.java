@@ -1,4 +1,4 @@
-package revice_java.sorting;
+package sorting;
 
 public class bubble {
     public static void main(String[] args) {

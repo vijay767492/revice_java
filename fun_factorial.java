@@ -1,4 +1,4 @@
-package revice_java;
+
 import java.util.*;
 
 public class fun_factorial {

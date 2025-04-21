@@ -1,4 +1,4 @@
-package revice_java;
+
 
 public class Integer_or_not {
     public static void main(String[] args) {

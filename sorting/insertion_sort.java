@@ -9,7 +9,7 @@ public class insertion_sort {
                     arr[j+1] = arr[j];
                     j--;
                 }
-            arr[j+1] = temp;
+            arr[j+1] = temp;z
         }
  
         for(int i=0;i<arr.length;i++){

@@ -1,4 +1,4 @@
-package revice_java.OOPs;
+
 class shape{
     String color="black";
      

@@ -1,4 +1,4 @@
-package revice_java.recursion;
+
 
 public class factorial {
     public static int  factorial1(int n){

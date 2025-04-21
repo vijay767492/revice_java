@@ -10,7 +10,8 @@ public class basic_linkedlist {
         mm.add(45);
         mm.add(43);
         mm.add(2);
-
+        mm.addLast(276);
+        System.out.println(mm.size());
     System.out.println(mm);
    mm.addLast(222222222);
    System.out.println(mm);
@@ -18,6 +19,7 @@ public class basic_linkedlist {
    System.out.println(mm);
    mm.remove(1);
    System.out.println(mm);
+   System.out.println(mm.size());
     }
 
 }

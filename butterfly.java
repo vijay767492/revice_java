@@ -1,4 +1,4 @@
-package revice_java;
+
 public class butterfly {
     public static void main(String[] args) {
         int n=4;

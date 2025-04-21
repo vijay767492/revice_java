@@ -18,8 +18,6 @@ return;
         newnode.next=head;
         head=newnode;
     } 
-    
-  
     public void fromend(int a) {
         // Step 1: Calculate the size of the linked list
         int size=-1;

@@ -1,4 +1,4 @@
-package revice_java;
+
 import java.util.*;
 public class func_power_of_number {
     public static int power (int a,int b){

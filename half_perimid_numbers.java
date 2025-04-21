@@ -1,4 +1,4 @@
-package revice_java;
+
 public class half_perimid_numbers {
     public static void main(String[] args) {
         int n=9;

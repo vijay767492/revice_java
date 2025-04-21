@@ -1,4 +1,4 @@
-package revice_java.recursion;
+
 
 public class sum_of_natural_numbers {
     public static void sum1(int i,int n,int sum){ 

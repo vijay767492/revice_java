@@ -1,4 +1,4 @@
-package revice_java.sorting;
+package revice_java.recursion.sorting;
 
 public class merge_sort {
     public static void conquer(int[] arr,int si, int mid, int ei){
